@@ -42,5 +42,12 @@
 /^https?://([A-Za-z0-9.-]*\.)?info\.yahoo\.com/
 /^https?://([A-Za-z0-9.-]*\.)?ads\.yahoo\.com/
 /^https?://([A-Za-z0-9.-]*\.)?global\.ard\.yahoo\.com/
-/(youtu\.be\/|youtube\.com\/(watch\?(.*&)?v=|(embed|v)\/))([^\?&"'>]+)/
+/^[\w-\.]+?google(?:adservices|apis|syndication|usercontent)?\.com$/
+/^[\w-\.]+?l\.google\.com$/
+/^[\w-\.]+double(?:lick|click)\.net$/
+/^[\w-\.]+manifest\.googlevideo\.com$/
+/^beacons\.gv[\w-\.]+\.com$/
+/^clients[\d]+?.google\.com$/
+/^clients[\d]+?\.youtube\.com$/
+/^r[0-9-\.]+sn.*googlevideo\.com$/
 
